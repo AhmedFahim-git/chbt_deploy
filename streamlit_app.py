@@ -109,11 +109,16 @@ You can also change the user avatar using the drop down list.
 *For advanced users:*  
 The model was deployed using [Streamlit](https://streamlit.io/) and deployed on 
 [Streamlit Cloud](https://streamlit.io/cloud). The chatbot interface was made using 
-[streamlit-chat](https://pypi.org/project/streamlit-chat/). Instructions on how to make a chatbot using streamlit-chat 
-were found from the [example app](https://github.com/AI-Yash/st-chat/tree/main/examples) by streamlit-chat. For the 
-chatbot responses, the [blenderbot-400M-distill by facebook](https://huggingface.co/facebook/blenderbot-400M-distill) was
-used via the [huggingface inference api](https://huggingface.co/inference-api). The code for this project can be found in 
-this [Github](https://github.com/AhmedFahim-git/chbt_deploy) repo.
+[streamlit-chat](https://pypi.org/project/streamlit-chat/). Instructions on how to make a 
+chatbot using streamlit-chat were found from the 
+[example app](https://github.com/AI-Yash/st-chat/tree/main/examples) by streamlit-chat. For 
+the chatbot responses, blenderbot models by facebook were used via the 
+[huggingface inference api](https://huggingface.co/inference-api). The large model uses the 
+[blenderbot-3B model](https://huggingface.co/facebook/blenderbot-3B), the medium sized model 
+uses the [blenderbot-400M-distill model](https://huggingface.co/facebook/blenderbot-400M-distill), 
+and the small model uses the 
+[blenderbot_small-90M model](https://huggingface.co/facebook/blenderbot_small-90M) The code 
+for this project can be found in this [Github](https://github.com/AhmedFahim-git/chbt_deploy) repo.
 
 **P.S.** The initial chatbot avatars are chosen randomly.
 """
